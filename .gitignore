@@ -1,0 +1,14 @@
+# idea
+.vscode
+.DS_Store
+.idea
+
+# tmp file
+*.zip
+*.log
+*.exe
+*.exe~
+*.tmp
+*.gz
+*.pprof
+*.bat
