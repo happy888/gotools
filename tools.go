@@ -20,7 +20,7 @@ import (
 	"github.com/tidwall/pretty"
 )
 
-const GOTOOLS_VERSION = "v0.0.3"
+const GOTOOLS_VERSION = "v0.0.4"
 
 var (
 // 一些变量 ...
@@ -576,6 +576,7 @@ type CRule struct {
 	Des        string   // 规则描述
 	Rev        bool     // 是否取反
 	Lcon       string   // 规则连接符
+	MaValue    string   // malocation是header args post时 校验header名
 }
 
 func MapCRuleMatch(_obmap map[string]string, _crule CRule) bool {

@@ -1,4 +1,4 @@
-module github.com/starjun/gotools
+module github.com/happy888/gotools
 
 go 1.15
 
